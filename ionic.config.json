@@ -1,0 +1,7 @@
+{
+  "name": "garden06",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
