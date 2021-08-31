@@ -1,0 +1,22 @@
+.c-section {
+  &-stages {
+    display        : flex;
+    align-items    : center;
+    gap            : .875em;
+    justify-content: center;
+
+    &__title {
+      color: var(--color-neutral---black400);
+    }
+  }
+}
+
+div {
+  display       : flex;
+  flex-direction: column;
+  gap           : 1em;
+}
+
+app-select {
+  display: contents;
+}

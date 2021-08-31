@@ -1,0 +1,10 @@
+<div class="temperatures">
+  <span class="o-font-subtitle temperatures__title">Temperaturas ideales</span>
+  <div class="temperatures__container">
+    <app-button *ngFor="let button of getButtons()" [button]="button" (getButton)="eventButton($event)"> </app-button>
+  </div>
+  <div class="temperatures__container-boxes">
+    <app-box-temperature *ngFor="let temperature of getTemperatures()" [temperature]="temperature">
+    </app-box-temperature>
+  </div>
+</div>

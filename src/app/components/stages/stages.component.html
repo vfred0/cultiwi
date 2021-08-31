@@ -1,0 +1,7 @@
+<div>
+  <section class="c-section-stages">
+    <span class="c-section-stages__title o-font-subtitle">Etapa</span>
+    <app-select [options]="getStages()" (selectOption)="onChangeStage($event)"></app-select>
+  </section>
+  <app-recomendations [recomendations]="getRecomendations()"></app-recomendations>
+</div>

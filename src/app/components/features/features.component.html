@@ -1,0 +1,8 @@
+<div>
+  <section class="c-section-stages">
+    <span class="c-section-stages__title o-font-subtitle">Características</span>
+    <app-select [options]="getFeaturesName()" (selectOption)="onChangeFeature($event)"></app-select>
+  </section>
+  <app-about-plant [aboutPlant]="getFeatureDescription()"> </app-about-plant>
+  <app-images [images]="getFeatureImages()"> </app-images>
+</div>

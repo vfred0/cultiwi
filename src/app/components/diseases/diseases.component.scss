@@ -1,0 +1,31 @@
+.c-section {
+  &-diseases {
+    display        : flex;
+    align-items    : center;
+    gap            : .875em;
+    justify-content: center;
+
+    &__title {
+      color: var(--color-neutral---black400);
+    }
+  }
+
+}
+
+.container-boxes {
+  display        : flex;
+  justify-content: center;
+  gap            : 1em;
+  flex-wrap      : wrap;
+}
+
+
+.wrapper {
+  display       : flex;
+  flex-direction: column;
+  gap           : 1em;
+}
+
+app-select {
+  display: contents;
+}

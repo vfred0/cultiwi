@@ -1,0 +1,12 @@
+.images {
+  display        : flex;
+  align-items    : center;
+  gap            : .875em;
+  justify-content: center;
+
+  &__item {
+    width        : 7em;
+    height       : 7em;
+    border-radius: 6px;
+  }
+}

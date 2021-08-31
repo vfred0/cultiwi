@@ -1,0 +1,15 @@
+main {
+  display       : flex;
+  gap           : 1em;
+  flex-direction: column;
+}
+
+main {
+  padding: 1em;
+}
+
+
+ion-content,
+ion-header {
+  --background: var(--color-white);
+}

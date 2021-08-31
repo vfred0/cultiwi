@@ -1,0 +1,14 @@
+<ion-content>
+
+  <app-hero-back-menu [optionsBackMenu]="getOptionsBackMenu()"></app-hero-back-menu>
+  <main class="o-container">
+    <section class="measurements">
+      <app-measurements [measurements]="getMeasurements()" (getResults)="setResultsMeasurements($event)">
+      </app-measurements>
+    </section>
+    <section class="result">
+      <app-recomendations [title]="'Resultados'" [iconError]="iconError()" [recomendations]="getResults()">
+      </app-recomendations>
+    </section>
+  </main>
+</ion-content>

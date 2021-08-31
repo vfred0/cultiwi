@@ -1,0 +1,13 @@
+<div class="wrapper">
+
+
+  <section class="c-section-diseases">
+    <span class="c-section-diseases__title o-font-subtitle">Enfermedades</span>
+    <app-select [options]="getDiseases()" (selectOption)="onChangeSelect($event)"></app-select>
+  </section>
+  <app-images [images]="getImages()"></app-images>
+  <div class="container-boxes">
+    <app-button *ngFor="let button of getButtons()" [button]="button" (getButton)="eventButton($event)"> </app-button>
+  </div>
+  <app-recomendations [recomendations]="getRecomendations()"></app-recomendations>
+</div>

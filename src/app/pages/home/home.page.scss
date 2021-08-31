@@ -1,0 +1,10 @@
+ion-content {
+  --padding-bottom: 1em;
+}
+
+ion-card,
+ion-content,
+ion-toolbar,
+ion-header {
+  --background: var(--color-white);
+}
